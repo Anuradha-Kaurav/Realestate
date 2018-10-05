@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#445963</color>
+    <color name="colorPrimaryDark">#1b3039</color>
+    <color name="colorAccent">#EC407A</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#AEB6BF</color>
+    <color name="lightgrey">#EAECEE</color>
+    <color name="black">#000000</color>
+    <color name="colorSecondPrimary">#FF2555</color>
+    <color name="category">#F50057</color>
+    <color name="yelp">#AF0606</color>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#b3000000">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="30dp"
+            >
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Login/Sign Up to showcase your property"
+              android:textColor="@color/white"
+              android:gravity="center"
+              android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/email_ph"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/edittext_round_bg"
+                android:gravity="center_vertical"
+                android:hint="Email or Phone number"
+                android:textSize="16sp"
+                android:padding="8dp"
+                android:inputType="textNoSuggestions"
+                android:layout_marginTop="25dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/edittext_round_bg">
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/edittext_round_bg"
+                    android:gravity="center_vertical"
+                    android:hint="Password"
+                    android:textSize="16sp"
+                    android:inputType="textPassword"
+                    android:padding="8dp"
+                    android:layout_toLeftOf="@+id/visibility"/>
+
+                <ImageView
+                    android:id="@+id/visibility"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_visibility"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:background="@color/yelp"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Submit"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/forgotPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Forgot password?"
+                android:textColor="@color/white"
+                android:gravity="end"/>
+
+            <Button
+                android:id="@+id/notAMember"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="REGISTER WITH US"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:textSize="12sp"
+        android:layout_alignParentBottom="true"
+        android:text="Terms &amp; Conditions apply"/>
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "10256362216",
+    "firebase_url": "https://realstate-14f64.firebaseio.com",
+    "project_id": "realstate-14f64",
+    "storage_bucket": "realstate-14f64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10256362216:android:3fc386996c29cec4",
+        "android_client_info": {
+          "package_name": "com.demo.realstate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10256362216-kqjvqmtg2qv6akch7uqmug8818jfmf7l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXxIsOuTuB1HGLxfkgUViev2TPVhbwht0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

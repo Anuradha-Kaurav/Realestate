@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Agent Bricks</string>
+
+    <string name="no_internet">Please check your Internet Connection !!</string>
+    <string name="ok">OK</string>
+    <string name="select_role">Please select Agent or Builder</string>
+    <string name="select_doc_type">Please select type of document</string>
+    <string name="enter_email_ph">Please enter valid email or phone number</string>
+    <string name="agree_tc">By clicking above, you agree to  <font color='#AF0606'>AgentBricks T &amp; C</font></string>
+</resources>
